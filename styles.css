@@ -9,6 +9,7 @@ body {
     background: linear-gradient(to bottom, #001f4d, #010c1b);
     color: #fff;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 
@@ -45,12 +46,12 @@ header nav a {
     margin-top: 10%;
     font-size: 48px;
     font-weight: bold;
-    margin-left: 8%
+    margin-left: 8%;
     
 }
 
 .subtitle{
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 30px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     margin-bottom: 40px;
@@ -59,11 +60,12 @@ header nav a {
 }
 
 .foto{
-    width: 700px;
+    width: 800px;
     align-self: center;
     margin-top: -20%;
-    margin-right: -40% ;
+    margin-left: 50% ;
     animation: float 2s ease-in-out infinite;
+
 }
 .redes-sociais{
     display: flex;
@@ -76,6 +78,10 @@ header nav a {
 .image-rede{
     width: 40px;
     transition: transform 0.3s;
+}
+
+.image-rede:hover {
+    transform: scale(1.2);
 }
 
 .pepsi{
@@ -103,13 +109,13 @@ header nav a {
 
 .pepsi1{
     max-width: 100%;
-    width: 450px;
+    width: 350px;
     animation: float 3s ease-in-out infinite;
 }
 
 .pepsi2{
     max-width: 100%;
-    width: 500px;
+    width: 400px;
     animation: float 3s ease-in-out infinite;
 }
 
@@ -120,4 +126,72 @@ header nav a {
     50% {
         transform: translateY(-20px);
     }
+}
+
+.curiosidades{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.produtos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    
+}
+.produtos-container{
+    margin-top: 3%;
+    margin-bottom: 5%;
+    padding: 0 5%;
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.produto-image{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+
+}
+
+.produto-image:hover {
+    transform: scale(1.05);
+}
+
+.produto-title{
+    font-size: 18px;
+    margin: 10px 0 5px 0;
+    text-align: center;
+}
+
+.produto-description{
+    font-size: 15px;
+    color: #ccc;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.btn-vermais{
+   background-color: #0056b3;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    font-size: 15px;
+    display: block;   
+    margin: 20px auto; 
+    cursor: pointer;
+
 }
