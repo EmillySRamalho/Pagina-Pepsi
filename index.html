@@ -7,6 +7,7 @@
     <title>Pepsi</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="./img/pepsi_732236.png" type="image/x-icon">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -108,10 +109,30 @@
             <button class="btn-vermais">Ver mais produtos</button>
         </div>
     </div>
+    <div class="stars">
+    <input type="radio" id="star5" name="rating" value="5">
+    <label for="star5">★</label>
+    
+    <input type="radio" id="star4" name="rating" value="4">
+    <label for="star4">★</label>
+    
+    <input type="radio" id="star3" name="rating" value="3">
+    <label for="star3">★</label>
+    
+    <input type="radio" id="star2" name="rating" value="2">
+    <label for="star2">★</label>
+    
+    <input type="radio" id="star1" name="rating" value="1">
+    <label for="star1">★</label>
+  </div>
 
+  <p id="result"></p>
     <div class="opinions-section">
         <input type="text" placeholder="Deixe sua opinião..." />
+        <button class="btn-enviar">Enviar</button>
     </div>
+    <h2>Deixe sua avaliação:</h2>
+  
     <div class="opinions-container">
         <h3>Opiniões dos Clientes</h3>
         <div class="opinion-card">
