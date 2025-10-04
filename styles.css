@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
 }
 
 body {
@@ -11,7 +10,6 @@ body {
     min-height: 100vh;
     overflow-x: hidden;
 }
-
 
 header {
     width: 100%;
@@ -35,23 +33,25 @@ header nav a {
     font-size: 18px;
     transition: color 0.3s;
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    padding-top: 100px; 
+    padding-top: 100px;
     padding-left: 30px;
 }
-.title{
+
+.title {
     margin-top: 10%;
     font-size: 48px;
     font-weight: bold;
     margin-left: 8%;
-    filter: drop-shadow(0 10px 10px rgba(0,0,0,5));
+    filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 5));
 
 }
 
-.subtitle{
+.subtitle {
     font-size: 22px;
     margin-top: 30px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
@@ -61,17 +61,18 @@ header nav a {
 
 }
 
-.foto{
+.foto {
     width: 800px;
     align-self: center;
     margin-top: -20%;
-    margin-left: 50% ;
+    margin-left: 50%;
     animation: float 2s ease-in-out infinite;
-    filter: drop-shadow(0 10px 10px rgba(0,0,0,5));
+    filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 5));
 
 
 }
-.redes-sociais{
+
+.redes-sociais {
     display: flex;
     align-items: center;
     margin-top: 20px;
@@ -79,7 +80,8 @@ header nav a {
     gap: 80px;
     margin-top: 2%;
 }
-.image-rede{
+
+.image-rede {
     width: 40px;
     transition: transform 0.3s;
 }
@@ -88,26 +90,27 @@ header nav a {
     transform: scale(1.2);
 }
 
-.pepsi-section{
+.pepsi-section {
     padding: 50px 20px;
 
-   
+
 }
-.pepsi{
+
+.pepsi {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 25%;
     gap: 50px;
-  
+
 }
 
-.title2{
+.title2 {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
     margin-bottom: 50px;
-    filter: drop-shadow(0 10px 10px rgba(0,0,0,5));
+    filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 5));
 
 }
 
@@ -117,36 +120,39 @@ header nav a {
     align-items: flex-end;
     gap: 50px;
     flex-wrap: wrap;
-    
+
 }
 
-.pepsi1{
+.pepsi1 {
     max-width: 100%;
     width: 350px;
     animation: float 3s ease-in-out infinite;
-    filter: drop-shadow(0 10px 10px rgba(0,0,0,5));
-   
+    filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 5));
+
 }
 
-.pepsi2{
+.pepsi2 {
     max-width: 100%;
     width: 400px;
     animation: float 3s ease-in-out infinite;
-    filter: drop-shadow(0 10px 10px rgba(0,0,0,5));
-     
+    filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 5));
+
 }
 
 @keyframes float {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateY(0);
     }
+
     50% {
         transform: translateY(-20px);
     }
 }
 
 
-.sobre-video{
+.sobre-video {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -156,28 +162,29 @@ header nav a {
 
 }
 
-.title-video{
+.title-video {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
     margin-bottom: 40px;
-    filter: drop-shadow(0 10px 10px rgba(0,0,0,5));
+    filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 5));
 
 }
 
-.produtos{
+.produtos {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 15%;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
-    filter: drop-shadow(0 10px 10px rgba(0,0,0,5));
+    filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 5));
     margin-bottom: 3%;
-    
+
 }
-.produtos-container{
+
+.produtos-container {
     margin-top: 3%;
     margin-bottom: 5%;
     padding: 2% 5%;
@@ -185,10 +192,10 @@ header nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-   
+
 }
 
-.produto-image{
+.produto-image {
     width: 100%;
     max-width: 300px;
     border-radius: 10px;
@@ -201,73 +208,74 @@ header nav a {
     transform: scale(1.05);
 }
 
-.produto-title{
+.produto-title {
     font-size: 18px;
     margin: 10px 0 5px 0;
     text-align: center;
     font-weight: bold;
     color: #fdb2b2;
-    
+
 }
 
-.produto-description{
+.produto-description {
     font-size: 15px;
     color: #ccc;
     text-align: center;
     line-height: 1.4;
 }
 
-.btn-vermais{
-   background-color: #0056b3;
+.btn-vermais {
+    background-color: #0056b3;
     color: white;
     padding: 15px;
     text-decoration: none;
     border-radius: 10px;
     transition: background-color 0.3s;
     font-size: 15px;
-    display: block;   
-    margin: 20px auto; 
+    display: block;
+    margin: 20px auto;
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
-    
+
 
 }
 
 .opinions-container {
     display: flex;
-    gap: 20px; 
-    flex-wrap: wrap; 
+    gap: 20px;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 30px;
-  }
+}
 
-  .opinion-card {
+.opinion-card {
     background-color: #fff;
     border: 2px solid #ddd;
     border-radius: 10px;
     padding: 20px;
     width: 250px;
     height: 200px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
-  }
+}
 
-  .opinion-card:hover {
+.opinion-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-  }
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
 
-  .opinion-text {
+.opinion-text {
     font-size: 16px;
     margin-bottom: 15px;
     color: #333;
-  }
+}
 
-  .opinion-author {
+.opinion-author {
     font-weight: bold;
     color: #555;
     text-align: right;
-  }
+}
+
 .opinions-section {
     margin-top: 50px;
     text-align: center;
@@ -301,28 +309,28 @@ header nav a {
 }
 
 .stars {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  gap: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 5px;
 }
 
 .stars input {
-  display: none;
+    display: none;
 }
 
 .stars label {
-  font-size: 40px;
-  color: #ccc;
-  cursor: pointer;
-  transition: color 0.2s;
+    font-size: 40px;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.2s;
 }
 
-.stars input:checked ~ label {
-  color: gold;
+.stars input:checked~label {
+    color: gold;
 }
 
 .stars label:hover,
-.stars label:hover ~ label {
-  color: gold;
+.stars label:hover~label {
+    color: gold;
 }
