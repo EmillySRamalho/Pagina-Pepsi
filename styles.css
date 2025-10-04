@@ -1,6 +1,8 @@
 @font-face {
-    font-family: Vintage;
-    src: url('/fonts/Retro-Vintage.woff') format('woff');
+    font-family: "Vintage";
+    src: url("/fonts/Retro-Vintage.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
 }
 
 * {
@@ -54,7 +56,7 @@ header nav a {
     font-weight: bold;
     margin-left: 8%;
     filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 5));
-    font-family: 'Vintage', 
+    font-family: 'Vintage';
 
 }
 
